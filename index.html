@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Abdul Haseeb's CV</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700" rel="stylesheet">
@@ -18,14 +19,13 @@
         <div class="container-fluid">
                 <!-- logo -->
                     <div class="navbar-header">
-                        <a href="index.html" class="navbar-brand">CV-Abdul Haseeb</a>
+                        <a href="index.html" class="navbar-brand">ABDUL HASEEB</a>
                     </div>
                 <!-- /logo -->
                    
         <!-- navbar -->
                      <ul class="nav navbar-nav">
-                        <li class="active"><a href="/">Home</a></li>
-                            <li><a href="/">Download CV</a></li>
+                        <li class="active"><a href="index,html" class="fa fa-home"></a></li>
                         <li class="visible-xs"><a href="contact.html">Contact Me</a></li>
                     </ul>
                    <!-- <ul class="list-inline social-links">
@@ -41,7 +41,7 @@
                 <!-- Sign up button and Message -->
                    <div class="navbar-header navbar-right hidden-xs">
                         <a href="/login" class="btn btn-default navbar-btn">Contact Me</a>
-                        <p class="navbar-text"><i color="white">Reach out to the horizons</i></p> 
+                        <p class="navbar-text hidden-xs"><i>Reach out to the horizons</i></p> 
                     </div>
                  <!-- Sign up button and Message -->
         
@@ -78,10 +78,14 @@
                     <h2><i>Hello there!</i></h2>
                     <h1>I'm Abdul Haseeb</h1>
                     <p class="lead"><strong><mark>Data Analytics | Graphics Design | UX/UI | Web Development</mark></strong></p>
-                    <!-- <p><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#SignupModal">Sign up!</button></p>
-                    <p class="text-muted">
-                        <smal><i>*You still have to put in the effort and the hours to learn and practice</i></smal>
-                    </p> -->
+                    
+             <!-- Callout buttons -->       
+                  
+                    <button type="button" class="btn btn-primary btn-lg btn--cta btn--red" data-toggle="modal" data-target="#SignupModal">Contact Me</button>
+                    <button type="button" class="btn btn-primary btn-lg btn--cta btn--red"> Download CV <a href="#" class="cv-pdf"><i class="fa fa-download" aria-hidden="true"></i> </a> </button>
+                   
+            <!-- / Callout buttons -->        
+                    
                 </section>
             </div>
         </div>
@@ -216,13 +220,13 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">Sign Up for <span class="label label-primary">FREE</span></h3>
+                <h3 class="modal-title" id="exampleModalLabel">Let's get some work done!</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               
-              <!-- pop up modal sign up box-->
+              <!-- pop up modal message box-->
               <div class="modal-body">
                      <form>
                       <div class="form-group">
@@ -235,13 +239,13 @@
                         <input type="password" class="form-control" id="Password" placeholder="Password">
                       </div>
                        <div class="form-group">
-                        <label for="passwordRepeat">Repeat Password</label>
-                        <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Password">
+                        <label for="message">Message</label>
+                        <input type="message" class="form-control" id="message" placeholder="Message">
                       </div>
                       
-                      <button type="submit" class="btn btn-success">Sign Up!</button>
+                      <button type="submit" class="btn btn-success">Let's get in touch.</button>
                 </form>
-              <!-- / pop up modal sign up box-->
+              <!-- / pop up modal message box-->
               </div>
               
             </div>
