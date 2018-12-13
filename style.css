@@ -182,7 +182,7 @@ body {
 
 /*--------------------------------------------Footer*/
 footer {
-    background-color: #525252;
+    background-color: #000080;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -196,7 +196,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: orange;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
